@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./index.scss"
 
 export default function Nav() {
+
+  const [clicked, setClicked] = useState(false)
+
+  const click = () => {
+    setClicked(current => !current) //changes to whatever it isnt at the time
+  }
+
+  useEffect( () => {
+    console.log(clicked);
+}, [clicked]);
+
+
   return (
     <>
       <nav>
@@ -57,6 +69,15 @@ export default function Nav() {
             <li><a href="index.html">Contact</a></li>
           </ul>
         </div>
+
+        <div id="mobile">
+          <i id="bar"
+          onClick={click} 
+          className={clicked ? "fas fa-times" : 
+          "fas fa-bars"}
+          ></i>
+        </div>
+
       </nav>
     </>
   );
