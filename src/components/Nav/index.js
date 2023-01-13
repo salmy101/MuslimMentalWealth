@@ -62,7 +62,7 @@ export default function Nav() {
         </a>
 
         <div>
-          <ul id="navbar">
+          <ul id="navbar" className={clicked ? "#navbar active" : "navbar"}>
             <li><a classname="active" href="index.html">Home</a></li>
             <li><a href="index.html">About</a></li>
             <li><a href="index.html">Resources</a></li>
