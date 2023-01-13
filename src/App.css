@@ -14,7 +14,9 @@
 }
 
 .App {
-  background-color: aliceblue;
+  /* background-color: #A3C7D6; */
+  background-color: #e8e0d0;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;

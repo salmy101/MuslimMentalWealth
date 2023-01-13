@@ -2,7 +2,9 @@ nav{
   display: flex;
   align-items: center;
   justify-content:space-between ;
-  background-color: #a591cb;
+  // background-color: #3F3B6C;
+  background-color: #2e2e32;
+
   padding: 10px 80px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -60,11 +62,12 @@ nav{
     align-items: flex-start;
     justify-content: flex-start;
     position: fixed;
-    top: 43px;
+    top: 40px;
     right: -400px; //hides the nav bar unless clicked on the hamburger menue
     width: 300px;
     height: 100vh;
-    background: #c0b2da;
+    // background: #624F82;
+    background: #363637;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 40px 0 0 10px;
     transition: 0.3s ease-in-out;
