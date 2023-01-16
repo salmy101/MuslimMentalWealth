@@ -63,10 +63,10 @@ export default function Nav() {
 
         <div>
           <ul id="navbar" className={clicked ? "#navbar active" : "navbar"}>
-            <li><a classname="active" href="index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="index.html">Resources</a></li>
-            <li><a href="index.html">Contact</a></li>
+            <li><a classname="active" href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
 

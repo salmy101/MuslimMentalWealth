@@ -1,12 +1,12 @@
 import React from "react";
-
+import "./index.scss"
+import banner from "../../assests/hero.jpg"
 function Home() {
   return (
     <>
       <div className="container home-page">
-        <h1>Muslim</h1>
-        <h1>Mental</h1>
-        <h1>Wealth</h1>
+        <h1>Muslim Mental Wealth</h1>
+        <img src="banner"></img>
       </div>
     </>
   );
