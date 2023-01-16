@@ -62,6 +62,7 @@ nav{
     align-items: flex-start;
     justify-content: flex-start;
     position: fixed;
+    z-index: 3;
     top: 40px;
     right: -400px; //hides the nav bar unless clicked on the hamburger menue
     width: 300px;
