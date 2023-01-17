@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Sofia+Sans&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;500&family=Sofia+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
   body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
   background-color: #e8e0d0;
   min-height: 100vh;
   /* display: flex;
@@ -14,7 +16,8 @@
   align-items: center;
   justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: rgb(2, 2, 2);
+  /* color: rgb(2, 2, 2); */
+  background-color: rgba(255,255,255);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
